@@ -12,9 +12,9 @@ spring:
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    generate-dll: true
+    generate-ddl: true
     hibernate:
-      dll-auto: none
+      ddl-auto: none
 
 application:
   description: Project made for the DIO - Santander Bootcamp
