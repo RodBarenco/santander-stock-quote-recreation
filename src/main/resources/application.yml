@@ -16,5 +16,9 @@ spring:
     hibernate:
       ddl-auto: none
 
+cors:
+  allowed-origins: "https://rodbarenco.github.io"
+
 application:
   description: Project made for the DIO - Santander Bootcamp
+
